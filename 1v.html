@@ -1,0 +1,80 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hotel Booking</h1>
+    <div class="container">
+        <div class="hotel-list">
+            <div class="hotel">
+                <h2>Hotel 1</h2>
+                <div class="room">
+                    <h3>Standard</h3>
+                    <p>Spaces: <span id="hotel1-standard-spaces">0</span></p>
+                    <p>Occupation: <span id="hotel1-standard-occupation">empty</span></p>
+                    <button onclick="changeOccupation(0, 0)">Toggle Occupation</button>
+                </div>
+                <div class="room">
+                    <h3>Lux</h3>
+                    <p>Spaces: <span id="hotel1-lux-spaces">0</span></p>
+                    <p>Occupation: <span id="hotel1-lux-occupation">empty</span></p>
+                    <button onclick="changeOccupation(0, 1)">Toggle Occupation</button>
+                </div>
+                <div class="room">
+                    <h3>Apartment</h3>
+                    <p>Spaces: <span id="hotel1-apartment-spaces">0</span></p>
+                    <p>Occupation: <span id="hotel1-apartment-occupation">empty</span></p>
+                    <button onclick="changeOccupation(0, 2)">Toggle Occupation</button>
+                </div>
+            </div>
+            <div class="hotel">
+                <h2>Hotel 2</h2>
+                <div class="room">
+                    <h3>Standard</h3>
+                    <p>Spaces: <span id="hotel2-standard-spaces">0</span></p>
+                    <p>Occupation: <span id="hotel2-standard-occupation">empty</span></p>
+                    <button onclick="changeOccupation(1, 0)">Toggle Occupation</button>
+                </div>
+                <div class="room">
+                    <h3>Lux</h3>
+                    <p>Spaces: <span id="hotel2-lux-spaces">0</span></p>
+                    <p>Occupation: <span id="hotel2-lux-occupation">empty</span></p>
+                    <button onclick="changeOccupation(1, 1)">Toggle Occupation</button>
+                </div>
+                <div class="room">
+                    <h3>Apartment</h3>
+                    <p>Spaces: <span id="hotel2-apartment-spaces">0</span></p>
+                    <p>Occupation: <span id="hotel2-apartment-occupation">empty</span></p>
+                    <button onclick="changeOccupation(1, 2)">Toggle Occupation</button>
+                </div>
+            </div>
+            <div class="hotel">
+                <h2>Hotel 3</h2>
+                <div class="room">
+                    <h3>Standard</h3>
+                    <p>Spaces: <span id="hotel3-standard-spaces">0</span></p>
+                    <p>Occupation: <span id="hotel3-standard-occupation">empty</span></p>
+                    <button onclick="changeOccupation(2, 0)">Toggle Occupation</button>
+                </div>
+                <div class="room">
+                    <h3>Lux</h3>
+                    <p>Spaces: <span id="hotel3-lux-spaces">0</span></p>
+                    <p>Occupation: <span id="hotel3-lux-occupation">empty</span></p>
+                    <button onclick="changeOccupation(2, 1)">Toggle Occupation</button>
+                </div>
+                <div class="room">
+                    <h3>Apartment</h3>
+                    <p>Spaces: <span id="hotel3-apartment-spaces">0</span></p>
+                    <p>Occupation: <span id="hotel3-apartment-occupation">empty</span></p>
+                    <button onclick="changeOccupation(2, 2)">Toggle Occupation</button>
+                </div>
+            </div>
+        </div>
+        <div class="message" id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
